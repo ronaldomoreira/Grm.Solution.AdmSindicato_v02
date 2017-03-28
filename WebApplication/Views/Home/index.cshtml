@@ -1,0 +1,158 @@
+﻿@{
+    ViewBag.Title = "Home";
+    ViewBag.SubTitle = "Principal";
+
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/Home/DashboardV1/menu")
+}
+
+@Styles.Render("~/AdminLTE/plugins/morris/css")
+@Styles.Render("~/AdminLTE/plugins/jvectormap/css")
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+@Styles.Render("~/AdminLTE/plugins/daterangepicker/css")
+@Styles.Render("~/AdminLTE/plugins/bootstrap-wysihtml5/css")
+
+<div class="jumbotron">
+    <h2><img src="~/images/drawable-hdpi/ic_launcher4.png" /> Grm Adm-SGiS</h2>
+    <p class="lead">Adminstração - Sistema de Gestão de Informações Sindicais.</p>
+    <p><a href="*">Saiba mais &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>SGiS - O que há de novo</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="*">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Descrição do Sistema</h2>
+        <p>
+            Integre, automatize e acelere as rotinas de análise e levantanento de dados de sua empresa com as entidades sindicais.
+            Centralize todas as informações em um único sistema.
+        </p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Análise e gestão</h2>
+        <p>
+            São pontos fundamentais para o sucesso de qualquer atividade empresarial, nas áreas trabalhista e sindical não é diferente.
+            A importância e a própria eficácia do treinamento consistem na apresentação aos participantes, por intermédio de uma abordagem
+            dinâmica e interativa, de uma visão diferenciada quanto à gestão das relações trabalhistas e sindicais.
+        </p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+<div class="box box-solid box-primary">
+    <div class="box-header with-border">
+        <h3 class="box-title">Informações adicionais</h3>
+        <div class="box-tools pull-right">
+            <!-- Buttons, labels, and many other things can be placed here! -->
+            <!-- Here is a label for example -->
+            <span class="label label-primary"></span>
+        </div><!-- /.box-tools -->
+    </div><!-- /.box-header -->
+    <div class="box-body">
+        <p><a href="http://trabalho.gov.br/portal-mte/" class="small-box-footer"><i class="fa fa-link"></i> Ministério do Trabalho e Emprego (MTE) </a></p>
+        <p><a href="http://trabalho.gov.br/cadastro-de-entidades-sindicais/cadastros-nacional-de-entidades-sindicais" class="small-box-footer"><i class="fa fa-link"></i> Cadastro Nacional de Entidades Sindicais </a></p>
+        <p><a href="http://trabalho.gov.br/sindicatos-consulta-afericao-centrais" class="small-box-footer"><i class="fa fa-link"></i> Consulta de Aferição das Centrais Sindicais </a></p>
+        <p><a href="http://trabalho.gov.br/sindicatos-mediacao/registro-de-convencoes-e-acordo-coletivo-de-trabalho" class="small-box-footer"><i class="fa fa-link"></i> Registro de Convenções e Acordo Coletivo de Trabalho </a></p>
+        <p><a href="http://www3.mte.gov.br/sistemas/mediador/ConvencaoColetiva" class="small-box-footer"><i class="fa fa-link"></i> Sistema de Negociações Coletivas de Trabalho - MEDIADOR </a></p>
+    </div><!-- /.box-body -->
+    <div class="box-footer">
+
+    </div><!-- box-footer -->
+</div><!-- /.box -->
+
+
+<div class="row">
+    <div class="col-lg-2 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <p></p>
+                <p>Consultoria</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-briefcase"></i>
+            </div>
+            <a href="#" class="small-box-footer">Saiba mais <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <p></p>
+                <p>Soluçoes tenológicas</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-android-playstore"></i>
+            </div>
+            <a href="#" class="small-box-footer">Saiba mais <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <p></p>
+                <p>Treinamento</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-person-stalker"></i>
+            </div>
+            <a href="#" class="small-box-footer">Saiba mais <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <p></p>
+                <p>Implantação</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-code-working"></i>
+            </div>
+            <a href="#" class="small-box-footer">Saiba mais <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <p></p>
+                <p>Suporte</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-headphone"></i>
+            </div>
+            <a href="#" class="small-box-footer">Saiba mais <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/jquery-ui/js")
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+
+    @Scripts.Render("~/AdminLTE/plugins/bootstrap-wysihtml5/js")
+    @Scripts.Render("~/AdminLTE/plugins/sparkline/js")
+    @Scripts.Render("~/AdminLTE/plugins/jvectormap/js")
+    @Scripts.Render("~/AdminLTE/plugins/daterangepicker/js")
+    @Scripts.Render("~/AdminLTE/plugins/knob/js")
+    @Scripts.Render("~/AdminLTE/plugins/raphael/js")
+    @Scripts.Render("~/AdminLTE/plugins/morris/js")
+    @Scripts.Render("~/AdminLTE/plugins/datepicker/js")
+    @Scripts.Render("~/Scripts/Home/DashboardV1")
+}
